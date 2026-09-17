@@ -1,0 +1,33 @@
+{
+  "name": "@zcy520del/lab-mcp-solidworks",
+  "description": "Parametric part modeling in SolidWorks via COM: build a box feature tree, verify volume through mass properties, save SLDPRT and export STEP. DSH plugin wrapping a stdio MCP server.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "server",
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {},
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "mcp",
+    "com",
+    "automation",
+    "solidworks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zcy520del/lab-mcp-solidworks.git"
+  },
+  "homepage": "https://github.com/zcy520del/lab-mcp-solidworks#readme"
+}

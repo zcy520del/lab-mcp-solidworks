@@ -1,0 +1,10 @@
+# NOTE: set `command` to your real python and replace args[0] with the
+# installed absolute path of server/server.py (pnpm link dirs vary).
+- insert:
+    - id: mcp-solidworks
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: solidworks
+        transport: stdio
+        command: python
+        args: ['@zcy520del/lab-mcp-solidworks/server/server.py']
